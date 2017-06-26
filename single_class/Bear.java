@@ -25,4 +25,8 @@ class Bear {
     return this.weight;
   }
 
+  public boolean readyToHibernate() {
+    return this.weight >= 80;
+  }
+
 }
